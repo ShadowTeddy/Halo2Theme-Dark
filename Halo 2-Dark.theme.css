@@ -1548,13 +1548,13 @@ div.platform-win .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(15
 }
 
 .app {
-background:url(https://i.imgur.com/G8ykiHn.jpg)!important;
+background:url(https://raw.githubusercontent.com/ShadowTeddy/Halo2Theme-Dark/master/MC-Dark.jpg)!important;
 background-size:cover!important;
 }
 .callout-backdrop {
-background:url(https://i.imgur.com/ZJAeqc8.png)!important;
+background:url(https://raw.githubusercontent.com/ShadowTeddy/Halo2Theme-Dark/master/MC%20New%20Mombasa-Dark.png)!important;
 background-size:cover!important;
-opacity:1!important
+opacity:1!important;
 }
 
 textarea {
