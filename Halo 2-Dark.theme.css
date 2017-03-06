@@ -9,7 +9,7 @@
 
 #voice-debug-modal #users-section .user-list li.selected:before {
     color: rgba(114, 137, 218, 0);
-    background-color: #597859;
+    background-color: transparent;
 }
 
 #voice-debug-modal #users-section .user-list li:hover {
@@ -21,7 +21,7 @@
 }
 
 #voice-debug-modal #users-section .user-list li:hover:before {
-    background-color: #597859;
+    background-color: transparent;
 }
 
 #voice-debug-modal #users-section .user-list li:hover {
