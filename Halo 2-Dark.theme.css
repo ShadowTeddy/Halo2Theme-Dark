@@ -6,6 +6,50 @@
 |   - Thanks To Beard Design for making this theme + letting me use it! -   |
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////
 */
+.now-playing.no-detection {
+    padding: 14px 0;
+    background: transparent;
+    -webkit-animation: none;
+    animation: none;
+}
+
+.now-playing {
+    padding: 11px 0;
+    width: 554px;
+    background: #4A4A4A;
+    border-radius: 3px;
+    margin-top: -13px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    color: #fff;
+    -webkit-animation: now-playing-pulse 1.5s infinite;
+    animation: now-playing-pulse 1.5s infinite;
+}
+
+@keyframes now-playing-pulse{
+	0% {
+    	box-shadow: 0 0 10px 2px rgba(0,0,0,.12),0 0 0 0 rgba(74,74,74,0.62);
+	}
+	70% {
+    	box-shadow: 0 0 10px 2px rgba(0,0,0,.12),0 0 10px 10px rgba(255,96,0,0);
+	}
+	100% {
+    	box-shadow: 0 0 10px 2px rgba(0,0,0,.12),0 0 0 0 rgba(255,96,0,0);
+	}
+}
 
 #voice-debug-modal #users-section .user-list li.selected:before {
     color: rgba(114, 137, 218, 0);
