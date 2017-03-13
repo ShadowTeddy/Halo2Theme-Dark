@@ -6,6 +6,89 @@
 |   - Thanks To Beard Design for making this theme + letting me use it! -   |
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////
 */
+/* Version Displayed */
+:root {--version-content: "2.5.7";}
+
+body:after {
+    content: "Current Version: v" var(--version-content);
+    z-index: 10000000000000000000000000;
+    color: #fff;
+    background: #4a4a4a;
+    top: 0;
+    left: 50%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+    -webkit-animation: version 6s ease;
+    animation: version 6s ease;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+body:before {
+    content: "Thanks for using the H2PC Discord Redesign - Dark Edition!";
+    z-index: 1000000000000000000000000;
+    color: #fff;
+    background: #4a4a4a;
+    top: 0px;
+    left: 50%;
+    position: absolute;
+    border-radius: 5px;
+    padding: 5px 15px;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+    -webkit-animation: version 6s ease;
+    animation: version 6s ease;
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+}
+
+@-webkit-keyframes version {
+    from {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+    20% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    80% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    to {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+}
+
+@keyframes version {
+    from {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+    20% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    80% {
+        -webkit-transform: translate(-50%, 20%);
+        transform: translate(-50%, 20%)
+    }
+    to {
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+}
+
+.ui-button.grey.outlined {
+    color: #ffffff;
+    border-color: rgba(116, 127, 141, 0);
+    background-color: #4A4A4A;
+}
+
 .now-playing.no-detection {
     padding: 14px 0;
     background: transparent;
@@ -2896,12 +2979,12 @@ span {
 }
 
 .Select-option.is-selected {
-    background: #8495CF!important;
+    background: transparent!important;
     color: #fff!important;
 }
 
 .Select-option.is-selected:hover {
-    background: #7289DA!important;
+    background: transparent!important;
 }
 
 .Select-control .Select-value {
