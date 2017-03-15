@@ -7,7 +7,7 @@
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////
 */
 /* Version Displayed */
-:root {--version-content: "2.5.7";}
+:root {--version-content: "2.5.9";}
 
 body:after {
     content: "Current Version: v" var(--version-content);
@@ -785,6 +785,7 @@ body:before {
 }
 
 @-webkit-keyframes check-anim- {
+
     100% {
         -webkit-transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
         transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
@@ -911,6 +912,7 @@ body:before {
     75% {
         -webkit-transform: scale(.162)rotate(0deg)translate(20px, -18px);
         transform: scale(.162)rotate(0deg)translate(20px, -18px);
+
         width: 1px;
         height: 1px;
     }
@@ -1946,12 +1948,15 @@ opacity:1!important;
 textarea {
 background:transparent!important
 }
+
 /*Scroll Color */
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
-border:1px solid rgba(0,0,0,0)!important;
-background-color:rgba(100,100,100,0.6)!important;
+	background-color:rgba(225,225,225,0.2)!important;
+    border: transparent;
+    width: 6px;
+	display: initial;
+	border-radius: 0;!important;
 }
-
 
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
 border:none!important;
@@ -2323,7 +2328,7 @@ border-bottom:6px solid #4A4A4A
 }
 
 .guilds-wrapper {
-    width: 75px;
+    width: 74px;
 }
 
 .guilds li {
@@ -4062,6 +4067,7 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
     width: 80px;
     border-radius: 10px;
 }
+
 
 .theme-light .btn.btn-settings {
     position: fixed;
