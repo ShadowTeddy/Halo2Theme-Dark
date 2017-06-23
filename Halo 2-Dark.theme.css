@@ -7,7 +7,7 @@
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////
 */
 /* Version Displayed */
-:root {--version-content: "2.6.1";}
+:root {--version-content: "2.6.2";}
 
 body:after {
     content: "Current Version: v" var(--version-content);
@@ -785,6 +785,7 @@ body:before {
 }
 
 @-webkit-keyframes check-anim- {
+
 
     100% {
         -webkit-transform: scale(.65)rotate(0deg)translate(13.5px, 3px);
@@ -1951,6 +1952,23 @@ div.platform-win .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(15
 background: rgba(0,0,0,0)!important; 
 }
 
+.chat .new-messages-bar button {
+    text-align: left;
+    background: #212121;
+    color: #fff;
+    font-weight: 500;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 6px 10px;
+    line-height: 14px;
+}
+
+.chat .new-messages-bar button:last-child {
+    text-transform: capitalize;
+    font-size: 12.5px;
+    color: #ffffff;
+    transition: color .2s;
+}
+
 .app {
 background:url(https://raw.githubusercontent.com/ShadowTeddy/Halo2Theme-Dark/master/MC-Dark.jpg)!important;
 background-size:cover!important;
@@ -1965,6 +1983,10 @@ textarea {
 background:transparent!important
 }
 
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 5px;
+}
+
 /*Scroll Color */
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
 	background-color:rgba(225,225,225,0.2)!important;
@@ -1972,6 +1994,11 @@ background:transparent!important
     width: 6px;
 	display: initial;
 	border-radius: 0;!important;
+}
+
+
+.scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
@@ -3925,6 +3952,7 @@ font-size:15px;
 }
 
 #voice-connection .btn:active:after,
+
 .account .btn:active:after {
     opacity: 1
 }
@@ -4164,12 +4192,12 @@ div.platform-osx .theme-light+span .user-settings-modal .tab-bar.SIDE .tab-bar-i
 }
 
 .status-picker.popout-menu {
-    background: #141414;
+    background: #212121;
     border-radius: 0!important;
-    width: 240px!important;
+    width: 238px!important;
     bottom: 0px!important;
     top: initial!important;
-    height: 85px!important;
+    height: 75px!important;
     display: block;
     position: absolute;
     -webkit-transition: all 150ms cubic-bezier(.5, 0, 0, 1);
