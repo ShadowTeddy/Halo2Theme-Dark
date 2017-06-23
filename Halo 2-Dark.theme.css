@@ -7,7 +7,7 @@
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////
 */
 /* Version Displayed */
-:root {--version-content: "2.6.0";}
+:root {--version-content: "2.6.1";}
 
 body:after {
     content: "Current Version: v" var(--version-content);
@@ -1934,7 +1934,19 @@ div.platform-win .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(15
 .theme-dark .layers {
     background: rgba(255, 255, 255, 0);
 }
-
+.container-RYiLUQ,
+.wrapper-2ldvyE,
+.private-channels .channel.selected a,
+.private-channels .channel:hover a
+{
+    background: rgba(0,0,0,0.25) !important;    
+}
+.contentSelectedText-3j5CXt,
+.contentHoveredText-2HYGIY, 
+.contentHoveredVoice-3qGNKh:active, 
+.contentSelectedVoice-gTtYM9:active{
+	background-color: rgba(0,0,0,0);
+}
 .layers, .layer { 
 background: rgba(0,0,0,0)!important; 
 }
