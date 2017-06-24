@@ -7,7 +7,7 @@
  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/////////////////////////////////////
 */
 /* Version Displayed */
-:root {--version-content: "2.6.2";}
+:root {--version-content: "2.6.3";}
 
 body:after {
     content: "Current Version: v" var(--version-content);
@@ -7813,11 +7813,6 @@ font-style:italic;
 
 .popout section {
 background:#0C0D0E!important
-}
-
-.popout header {
-background-color:#0C0D0E;
-border-bottom:3px solid #4A4A4A
 }
 
 .channel-members .member:hover,
